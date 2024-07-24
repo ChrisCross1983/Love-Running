@@ -184,9 +184,13 @@ main {
         margin: 5px 0;
     }
 
-    #benefits-physical div, #benefits-mental div {
+    #benefits-physical>div, #benefits-mental>div {
         line-height: 20px;
         margin-bottom: 20px;
+    }
+
+    #benefits p {
+        padding: 0 20px;
     }
 
 /* Large devices (laptops and desktops, 992px and up) */
